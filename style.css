@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+ overflow: hidden;
+ user-select: none;
+ font-weight: 650;
+ font-family: 'Lato', sans-serif;
+}
+
+.main-eye-container {
+ display: none;
+}
+
+.menu-items-container {
+ display: none;
+}
+
+.eye-interact {
+ position: absolute;
+ left: 49.2%;
+ top: 49%;
+}
+
+.menu-items-container {
+ position: absolute;
+ left: 51.5%;
+ top: 49.4%;
+}
+
+.menu-item {
+ color: rgb(33, 128, 237);
+ font-size: 1.5vh;
+ font-weight: 650;
+ margin-bottom: 1vh;
+ text-shadow: 2px 2px 2px #000000;
+}
+
+.menu-text {
+ color: white;
+ margin-left: 0.2vh;
+}
+
+.menu-text:hover {
+    color: rgb(33, 128, 237); 
+}
+
+.eye-interact > i {
+ font-size: 2.5vh;
+ color: rgb(255, 255, 255);
+ text-shadow: 2px 2px 2px #000000;
+} 
+
+.found > i {
+ color: rgb(33, 128, 237);
+}
